@@ -13,18 +13,10 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
-
 export default {
   name: 'Joke',
-  mounted: function () {
-    this.fetchJoke()
-  },
-  methods: {
-    ...mapActions(['fetchJoke'])
-  },
-  computed: {
-    ...mapGetters({ text: 'getCurrentJoke' })
-  }
+  props: [
+    'text'
+  ]
 }
 </script>
