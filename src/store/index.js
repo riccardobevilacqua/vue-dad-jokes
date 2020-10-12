@@ -13,7 +13,6 @@ export default new Vuex.Store({
   },
   mutations: {
     setCurrentJoke (state, payload) {
-      console.log(payload)
       if (payload?.length > 0) {
         state.currentJoke = payload
         state.jokes.push(payload)
