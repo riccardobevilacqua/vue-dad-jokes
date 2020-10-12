@@ -29,4 +29,6 @@
     }
   }
 }
+
+@import '~bulma/bulma.sass'
 </style>
