@@ -4,6 +4,8 @@
 
 A simple application written in [Vue](https://vuejs.org) to display dad jokes.
 
+[PREVIEW](https://zen-poincare-07eb03.netlify.app/)
+
 ## Project setup
 
 ```
