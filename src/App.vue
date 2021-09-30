@@ -30,5 +30,5 @@
   }
 }
 
-@import '~bulma/bulma.sass'
+@import '../node_modules/bulma/bulma.sass'
 </style>
